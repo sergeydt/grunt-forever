@@ -90,7 +90,7 @@ function startForeverWithIndex( index ) {
         outFile: logFile,
         command: commandName,
         append: true,
-        max: 3
+        max: Math.Infinity
       });
       log( 'Logs can be found at ' + logDir + '.' );
       done();
